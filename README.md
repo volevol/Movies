@@ -16,4 +16,7 @@
 * RoomDatabase
 * TheMovieDB API
 * Picasso
-# ![Структура](https://github.com/MrDinamo/Movies/blob/main/Activity.png)
+# Структура:
+![Структура](https://github.com/MrDinamo/Movies/blob/main/Activity.png)
+# Таймлайн
+![Таймлайн](https://github.com/MrDinamo/Movies/blob/main/Timeline.png)
