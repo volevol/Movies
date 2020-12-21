@@ -16,4 +16,4 @@
 * RoomDatabase
 * TheMovieDB API
 * Picasso
-# 
+# ![Структура](https://github.com/MrDinamo/Movies/blob/main/Activity.png)
