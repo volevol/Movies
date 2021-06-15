@@ -2,6 +2,7 @@ package com.sumin.mymovies;
 
 import android.arch.lifecycle.ViewModelProviders;
 import android.content.Intent;
+<<<<<<< HEAD
 import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -10,12 +11,17 @@ import android.support.v7.widget.RecyclerView;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+=======
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+>>>>>>> 28fadd0e46a78d06cd9d812b404980a8f66c8583
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import com.squareup.picasso.Picasso;
+<<<<<<< HEAD
 import com.sumin.mymovies.adapters.ReviewAdapter;
 import com.sumin.mymovies.adapters.TrailerAdapter;
 import com.sumin.mymovies.data.FavouriteMovie;
@@ -29,6 +35,11 @@ import com.sumin.mymovies.utils.NetworkUtils;
 import org.json.JSONObject;
 
 import java.util.ArrayList;
+=======
+import com.sumin.mymovies.data.FavouriteMovie;
+import com.sumin.mymovies.data.MainViewModel;
+import com.sumin.mymovies.data.Movie;
+>>>>>>> 28fadd0e46a78d06cd9d812b404980a8f66c8583
 
 public class DetailActivity extends AppCompatActivity {
 
@@ -40,17 +51,21 @@ public class DetailActivity extends AppCompatActivity {
     private TextView textViewReleaseDate;
     private TextView textViewOverview;
 
+<<<<<<< HEAD
     private RecyclerView recyclerViewTrailers;
     private RecyclerView recyclerViewReviews;
     private ReviewAdapter reviewAdapter;
     private TrailerAdapter trailerAdapter;
 
+=======
+>>>>>>> 28fadd0e46a78d06cd9d812b404980a8f66c8583
     private int id;
     private Movie movie;
     private FavouriteMovie favouriteMovie;
 
     private MainViewModel viewModel;
 
+<<<<<<< HEAD
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
@@ -74,6 +89,8 @@ public class DetailActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
+=======
+>>>>>>> 28fadd0e46a78d06cd9d812b404980a8f66c8583
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -100,6 +117,7 @@ public class DetailActivity extends AppCompatActivity {
         textViewReleaseDate.setText(movie.getReleaseDate());
         textViewRating.setText(Double.toString(movie.getVoteAverage()));
         setFavourite();
+<<<<<<< HEAD
         recyclerViewTrailers = findViewById(R.id.recyclerViewTrailers);
         recyclerViewReviews = findViewById(R.id.recyclerViewReviews);
         reviewAdapter = new ReviewAdapter();
@@ -121,6 +139,8 @@ public class DetailActivity extends AppCompatActivity {
         ArrayList<Review> reviews = JSONUtils.getReviewsFromJSON(jsonObjectReviews);
         reviewAdapter.setReviews(reviews);
         trailerAdapter.setTrailers(trailers);
+=======
+>>>>>>> 28fadd0e46a78d06cd9d812b404980a8f66c8583
     }
 
     public void onClickChangeFavourite(View view) {
