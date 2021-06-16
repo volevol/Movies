@@ -5,10 +5,7 @@
     <string name="top_rated">Наиболее рейтинговые</string>
     <string name="add_to_favourite">Добавлено в избранное</string>
     <string name="remove_from_favourite">Удалено из избранного</string>
-<<<<<<< HEAD
     <string name="item_main">Главная</string>
     <string name="item_favourite">Избранное</string>
     <string name="launch_trailer">Запустить трейлер</string>
-=======
->>>>>>> 28fadd0e46a78d06cd9d812b404980a8f66c8583
 </resources>
