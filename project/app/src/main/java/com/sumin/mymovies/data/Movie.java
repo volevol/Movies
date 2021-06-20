@@ -33,20 +33,6 @@ public class Movie {
         this.releaseDate = releaseDate;
     }
 
-    @Ignore
-    public Movie(int id, int voteCount, String title, String originalTitle, String overview, String posterPath, String bigPosterPath, String backdropPath, double voteAverage, String releaseDate) {
-        this.id = id;
-        this.voteCount = voteCount;
-        this.title = title;
-        this.originalTitle = originalTitle;
-        this.overview = overview;
-        this.posterPath = posterPath;
-        this.bigPosterPath = bigPosterPath;
-        this.backdropPath = backdropPath;
-        this.voteAverage = voteAverage;
-        this.releaseDate = releaseDate;
-    }
-
     public int getUniqueId() {
         return uniqueId;
     }
